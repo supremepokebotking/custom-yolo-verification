@@ -38,7 +38,7 @@ def process_framed_test_videos():
             cv2.imwrite(save_file, image_with_labels)
 
 
-YOLOV3_BASE_URL = os.environ.get('YOLOV3_BASE_URL', 'http://localhost:5555/api/')
+YOLOV3_BASE_URL = os.environ.get('YOLOV3_BASE_URL', 'http://localhost:5222/api/')
 
 import requests
 class YoloV3Manager():
