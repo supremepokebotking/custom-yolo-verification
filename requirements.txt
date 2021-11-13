@@ -1,0 +1,8 @@
+Flask
+pybase64
+jsonpickle
+pillow
+numpy
+opencv-contrib-python==3.4.4.19
+flask-cors
+pyarmor
